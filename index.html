@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script src="https://kit.fontawesome.com/bb27c739ab.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+    content="IE-edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Tanouti - Gamer and Streamer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpg" sizes="16x16" href=tanouti.jpg>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Tanouti</a>
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="#">Accueil</a></li>
+                <li><a href="#">Monter une vidéo</a></li>
+                <li><a href="#">Apprendre à streamer</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars fa-3x menu-hamburger" alt="menu 
+        hamburger"></i> 
+        
+    </nav>
+
+    <header></header>
+    <div class="footer-dark">  
+        <div id="particles-js"></div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="https://www.twitch.tv/tanoutii" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                        <a href="https://www.youtube.com/@Tanouti" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/@tanoutii" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/tanoutii_" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Tanouti © 2022</p>
+            </div>
+        </footer>
+        </div>
+       
+
+
+</body>
+
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="js/particles-js.js"></script>
+
+<script>
+    
+    const menuHamburger = document.querySelector(".menu-hamburger")
+
+    const navLinks = document.querySelector(".nav-links")
+    const icon = document.querySelector(".menu-hamburger")
+    
+    menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        icon.classList.toggle('mobile-menu-logo')
+    })
+</script>
+</html>
